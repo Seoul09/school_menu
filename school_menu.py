@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 
-
+# 급식 파일을 가져올 주소 ( 네이버로 우리 학교 이름 친것 )
 url = 'https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EA%B2%BD%EC%83%81%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90%EC%82%AC%EB%B2%94%EB%8C%80%ED%95%99%EB%B6%80%EC%84%A4%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90&oquery=%EA%B2%BD%EC%83%81%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90&tqi=hEpsjsp0JXVssbuCKKZssssssnZ-421774'
 
 response = requests.get(url)
