@@ -3,7 +3,8 @@
 학교 급식을 크롤링 하는 코드입니다.
 이 프로그램을 실행하기 위해서
 
-pip install bs4 \n
+pip install bs4
+
 pip install requests
 를 하셔야합니다.
 
